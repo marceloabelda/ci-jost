@@ -41,6 +41,6 @@ public function index()
    public function logout()
    {
       session_destroy();
-      $this->load->view('bye/bye');
+      redirect('bye');
    }
 }
