@@ -9,7 +9,6 @@ class Base_Controller extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		//$this->output->enable_profiler(true);
 
 		// Load the user model and get user data
         $this->load->library('users/ion_auth');
