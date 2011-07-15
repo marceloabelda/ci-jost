@@ -48,5 +48,7 @@ code {
 <h1>GO OUT</h1>
 
 
+<?php echo anchor('welcome','ir al welcome nuevamente'); ?>
+
 </body>
 </html>
