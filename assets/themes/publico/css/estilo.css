@@ -1,0 +1,34 @@
+body {
+	background-image:url(../img/background.gif);
+	font-family: Lucida Grande, Verdana, Sans-serif;
+	font-size: 14px;
+	color: #282D37;
+}
+a {
+	color: white;
+}
+#wrapper {
+}
+#header_bar {
+	text-align: right;
+	color: white;
+	height: 20px;
+	padding:5px 100px;
+	background-color: #494949;
+}
+#header_logo {
+	height: 100px;
+	background-color: #6B789F;
+}
+#nav_bar {
+	height: 30px;
+	background-color: #494949;
+}
+
+#main {
+	background-color: #BEC1C8;
+}
+#footer {
+	padding-top: 30px;
+	background-color: #494949;
+}
