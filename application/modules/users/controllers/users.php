@@ -12,7 +12,6 @@ class Users extends Authenticated_Controller {
 	//redirect if needed, otherwise display the user list
 	function index()
 	{
-			$this->data->users = $this->ion_auth->get_users_array();
 			$this->template->build('users/index', $this->data);
 	}
 
