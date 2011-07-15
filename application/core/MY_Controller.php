@@ -9,11 +9,6 @@ class Base_Controller extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-
-		// Load the user model and get user data
-        $this->load->library('users/ion_auth');
-
-		$this->user = $this->ion_auth->get_user();
 		
 		// Work out module, controller and method and make them accessable throught the CI instance
         $this->module 				= $this->router->fetch_module();
