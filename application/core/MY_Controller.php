@@ -6,7 +6,9 @@ class My_Controller extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		pam_auth('a','a');
+		if (!pam_auth('a','a')){
+			redirect('bye');
+		}	
 	}
 
 }
