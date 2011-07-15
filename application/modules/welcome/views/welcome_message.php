@@ -44,7 +44,7 @@ code {
 </style>
 </head>
 <body>
-<?php echo anchor('andmin/logout', 'Salir');
+<?php echo anchor('andmin/logout', 'Salir');?>
 <h1>Welcome to CodeIgniter!</h1>
 
 <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
