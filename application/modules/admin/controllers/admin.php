@@ -6,6 +6,7 @@ class Admin extends CI_Controller {
    {
       session_start();
       parent::__construct();
+
    }
 
 public function index()
@@ -20,7 +21,7 @@ public function index()
 
       if ( $this->form_validation->run() !== false ) {
          // then validation passed. Get from db
-         $this->load->model('admin_model');
+
          $res = $this
                   ->admin_model
                   ->verify_user(

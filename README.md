@@ -17,6 +17,15 @@ Contenido
 * CI_2.0.2
 
 	http://www.codeigniter.com
+	
+* HMVC 
+
+	https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc/wiki/Home
+
+* Login con PAM
+
+	http://pecl.php.net/package/PAM
+
 
 * FirePHP
 
@@ -25,9 +34,16 @@ Contenido
 	http://getfirebug.com/
 
 
-* HMVC 
+* $config['language']	= 'spanish'; 
+	
+	http://mygengo.com/string/p/codeigniter-2-1
 
-	https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc/wiki/Home
+
+
+TO-DO
+---------------------------
+
+
 
 * Template library 
 
@@ -38,17 +54,7 @@ Contenido
 
 	https://github.com/philsturgeon/codeigniter-asset	
 
-* Ion Auth
-	
-	http://benedmunds.com/ion_auth/
-	
-* $config['language']	= 'spanish'; 
-	
-	http://mygengo.com/string/p/codeigniter-2-1
 
-
-TO-DO
------
 
 * miles de cosas !!!!!
 

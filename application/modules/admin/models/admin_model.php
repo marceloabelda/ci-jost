@@ -10,7 +10,10 @@ class Admin_model extends CI_Model {
 
 	public function verify_user($email, $password)
 	{
-		//return true;
+		if (ENVIRONMENT=='development') {
+			return true;
+		}
+		
 		if (pam_auth($email, $password)) {
 			 
 			 $mail = explode("@",$email);

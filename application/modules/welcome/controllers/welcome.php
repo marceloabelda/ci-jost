@@ -9,6 +9,7 @@ class Welcome extends MY_Controller {
 
 	public function index()
 	{
+		$this->firephp->fb('ENVIRONMENT: '.ENVIRONMENT);
 		$this->load->view('welcome_message');
 	}
 }
