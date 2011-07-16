@@ -1,4 +1,4 @@
-CodeIgniter-Pack para Jost.com.ar
+CodeIgniter-Pack para hosting
 ==================
 
 Autor
