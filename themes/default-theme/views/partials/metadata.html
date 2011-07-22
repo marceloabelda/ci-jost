@@ -1,0 +1,45 @@
+<!-- Meta data -->
+
+<meta charset="UTF-8"> 
+
+<title><?php echo $template['title']; ?></title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="imagetoolbar" content="no" />
+
+<meta name="author" content="" /> 
+<meta name="copyright" content="" /> 
+<meta name="description" content="" /> 
+<meta name="robots" content="index,follow" /> 
+<meta name="robots" content="noodp" />
+
+<link rel="canonical" href="" />
+<link rel="author" href="humans.txt" />
+
+<?php
+echo '<base href='.base_url().'>';
+echo link_tag('favicon.ico', 'shortcut icon', 'image/ico');
+echo link_tag('apple-touch-icon.png', 'apple-touch-icon', 'image/png');
+
+//<link rel="stylesheet" media="screen" href="css/base.css?v=2" /> <!--Load CSS-->
+echo css('base.css');
+
+//<link rel="stylesheet" media="handheld" href="css/handheld.css?v=2" /> <!-- Mobile -->
+// pendiente 
+
+//<script src="assets/js/libs/modernizr-1.6.min.js"></script> <!-- Modernizr -->
+echo js('libs/modernizr-1.6.min.js');
+
+echo $template['metadata']; 
+?>
+
+
+
+
+
+
+	
+	
+
+
+
