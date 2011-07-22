@@ -57,11 +57,17 @@ Contenido
 TO-DO
 ---------------------------
 
-* Autoform ?
+* Autoform ????
 	
 	http://getsparks.org/packages/autoform/versions/HEAD/show
 
+* CodeIgniter menu spark ???
 
+	https://github.com/Barnabas/Spark-Menu
+	
+* table_torch ???
+
+	http://newfinds.com/code-igniter-sparks/table-torch/
 
 * miles de cosas !!!!!
 
