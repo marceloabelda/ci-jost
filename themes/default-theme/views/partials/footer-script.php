@@ -6,6 +6,19 @@ echo js('jquery.orbit.min.js');
 echo js('script.js');
 echo js('jquery.tipsy.js');
 echo js('jquery.reveal.js');
+
+
+// datatables tabletools
+echo css('../datatables/css/TableTools.css');
+echo css('../datatables/css/TableTools_JUI.css');
+echo css('../datatables/css/demo_table.css');
+
+echo js('../datatables/js/jquery.dataTables.js');
+echo js('../datatables/js/ZeroClipboard.js');
+echo js('../datatables/js/TableTools.js');
+
+
+
 ?>
 <!--  script en load
 <script>
