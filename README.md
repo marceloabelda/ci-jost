@@ -1,4 +1,4 @@
-CodeIgniter-Pack para Jost.com.ar
+CodeIgniter-Pack para hosting
 ==================
 
 Autor
@@ -9,7 +9,7 @@ Marcelo Abeldaño - <marcelo@jost.com.ar>
 Descripcion
 -----------
 
-Codeigniter para Jost.com.ar (a ver que sale
+CI que autentica con PAM para hosting (like webmin*0.001)
 
 
 Contenido
