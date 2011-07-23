@@ -69,5 +69,13 @@ TO-DO
 
 	http://newfinds.com/code-igniter-sparks/table-torch/
 
+* Embedded Perl
+
+        http://pecl.php.net/package/perl
+
+* Embedded Python
+
+        http://pecl.php.net/package/python
+
 * miles de cosas !!!!!!!!!!!
 
