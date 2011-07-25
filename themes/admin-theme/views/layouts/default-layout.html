@@ -1,0 +1,46 @@
+<!DOCTYPE html><!-- G5Framework -->
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+<head>
+	<?php echo $template['partials']['metadata'];?>
+</head>
+<body>
+
+    <div id="wrapper" class=cols>
+
+        <header id="top">
+			<?php echo $template['partials']['header']; ?>
+        </header><!--end #top-->
+        <nav id=tabs>
+			<?php echo $template['partials']['tabs']; ?>	
+		</nav>
+		<section id="content-wrapper" class='cols cols4'>
+		<aside id='aside' class='first col col1'>
+			<?php echo $template['partials']['aside']; ?>
+		</aside>
+			<section  class='col col3'>
+				<header id="content-header">
+					<?php echo $template['partials']['content-header'];?>
+					<?php echo $template['partials']['content-notices']; ?>
+				</header>
+			
+			<div id='body'>
+				<?php echo $template['body']; ?>
+			</div>
+			</section>
+		</section>
+
+		<footer id=footer>
+			<?php echo $template['partials']['footer']; ?>
+		</footer>
+		<?php echo $template['partials']['footer-script']; ?>	
+</div> 
+
+
+</body>
+</html>
