@@ -71,7 +71,7 @@ $config['layout'] = FALSE;
 |
 */
 
-$config['theme'] = 'default-theme';
+$config['theme'] = 'admin-theme';
 
 /*
 |--------------------------------------------------------------------------
