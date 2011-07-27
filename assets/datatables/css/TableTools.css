@@ -39,6 +39,7 @@ div.DTTT_container {
 }
 
 button.DTTT_button {
+	color: #000;
 	position: relative;
 	float: left;
 	height: 30px;

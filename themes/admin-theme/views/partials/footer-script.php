@@ -1,7 +1,6 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script><!--Load jQuery-->
-<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.2.min.js"%3E%3C/script%3E'))</script>
-
 <?php
+echo js('jquery-1.6.min.js');
+echo js('jquery-ui.js');
 echo js('jquery.orbit.min.js');
 echo js('script.js');
 echo js('jquery.tipsy.js');
@@ -10,7 +9,8 @@ echo js('jquery.reveal.js');
 
 // datatables tabletools
 echo css('../datatables/css/TableTools.css');
-echo css('../datatables/css/TableTools_JUI.css');
+//echo css('../datatables/css/demo_table_jui.css');
+//echo css('../datatables/css/TableTools_JUI.css');
 echo css('../datatables/css/demo_table.css');
 
 echo js('../datatables/js/jquery.dataTables.js');

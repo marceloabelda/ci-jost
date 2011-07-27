@@ -26,7 +26,8 @@
     h4{font-size:1.25em;margin-bottom:.6em;}
     h5,h6{font-size:1em;margin-bottom:.5em;font-weight:bold;}
     
-    p, blockquote, ul, ol, dl, form, table, pre{display:block;line-height:inherit;margin:0 0 1.5em 0;}
+    p, blockquote, ul, ol, dl, form, pre{display:block;line-height:inherit;margin:0 0 1.5em 0;}
+    table{1display:block;line-height:inherit;margin:0 0 1.5em 0;}
     article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary{display:block;}
     ul, ol, dl{padding:0;}
     ul ul, ul ol, ol ol, ol ul, dd{margin:0;}
@@ -125,11 +126,11 @@
         border:1px solid #aaa;
         padding:5px;
         background:#fff;
-        width:300px;
+        1width:300px;
         line-height:1em;
         margin:0;
         }
-    select{width:312px;}
+    select{1width:312px;}
     textarea, .area{overflow:auto; height:150px; width:400px;}
     input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus, .focus{background:#f5f5f5;outline:none;}
     .submit{}
@@ -185,7 +186,7 @@
             float:left;
             display:inline; 
             margin-left:2%;
-            background:#f1f1f1; /* only for demo purposes - remove this line */
+            1background:#f1f1f1; /* only for demo purposes - remove this line */
             }   
         .cols .first, .col:first-child{margin-left:none !important;}
         .col{width:49%;} /* 2 equal width columns - default */

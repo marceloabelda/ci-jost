@@ -1,8 +1,33 @@
 // G5 Framework
 // http://Framework.GregBabula.info
 // http://GregBabula.info/framework.php
-
 $(document).ready(function() {
+		$('#datatable').dataTable( {
+		"sDom": 'T<"clear">lfrtip',
+		//"sDom": '<"H"Tfr>t<"F"ip>',
+		"oTableTools": {"sSwfPath": "assets/datatables/swf/copy_cvs_xls_pdf.swf"},
+		//"bJQueryUI": true,
+		"sPaginationType": "full_numbers",
+		//"aaSorting": [[ 0, "desc" ]],
+		//"bAutoWidth": true,
+		"oLanguage": {
+					"sProcessing":   "Procesando...",
+					"sLengthMenu":   "Mostrar _MENU_ registros",
+					"sZeroRecords":  "No se encontraron resultados",
+					"sInfo":         "Mostrando desde _START_ hasta _END_ de _TOTAL_ registros",
+					"sInfoEmpty":    "Mostrando desde 0 hasta 0 de 0 registros",
+					"sInfoFiltered": "(filtrado de _MAX_ registros en total)",
+					"sInfoPostFix":  "",
+					"sSearch":       "Buscar:",
+					"sUrl":          "",
+					"oPaginate": {
+						"sFirst":    "Primero",
+						"sPrevious": "Anterior",
+						"sNext":     "Siguiente",
+						"sLast":     "&Uacute;ltimo"
+					}
+       } 
+   });
 	
 	//Smooth Scroll To Top
 	$(".return-top").click(function() {
