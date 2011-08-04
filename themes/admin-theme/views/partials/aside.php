@@ -1,8 +1,11 @@
 <?php
 $list = array(
             anchor('users/admin/index','Usuarios'),
-            anchor('groups/admin/index','Grupos'),
+           anchor('groups/admin/index','Grupos'),
             );
-echo ul($list);
+echo '---';//ul($list);
+
+
+
 ?>           
             

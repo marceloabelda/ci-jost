@@ -10,6 +10,7 @@
 @import "tipsy.css"; 				/* ToolTips */
 @import "reveal.css"; 				/* Modals */
 @import "orbit.css"; 				/* Image Slider */
+@import "menu.css"; 				/* Image Slider */
 
 
 /* HTML elements  */        
@@ -23,7 +24,7 @@
     h1{font-size:2em;margin-bottom:.5em;}   
     h2{font-size:1.75em;margin-bottom:.5142em;padding-top:.2em;}    
     h3{font-size:1.5em;margin-bottom:.7em;padding-top:.3em;}
-    h4{font-size:1.25em;margin-bottom:.6em;}
+    h4{font-size:1.25em;1margin-bottom:.6em;}
     h5,h6{font-size:1em;margin-bottom:.5em;font-weight:bold;}
     
     p, blockquote, ul, ol, dl, form, pre{display:block;line-height:inherit;margin:0 0 1.5em 0;}
@@ -224,7 +225,7 @@
         nav li{
             display:inline;
             position:relative;
-            margin-right:1.5em;
+            1margin-right:1.5em;
             list-style:none;
             }   
         #nav a{}
@@ -233,7 +234,7 @@
 
 /* header */
 
-    header hgroup{margin-bottom:1em;}
+    header hgroup{1margin-bottom:1em;}
     header hgroup h1{margin-bottom:.25em;}
     header hgroup h2{margin:0;color:#999;}  
 
