@@ -5,6 +5,9 @@ echo js('jquery.orbit.min.js');
 echo js('script.js');
 echo js('jquery.tipsy.js');
 echo js('jquery.reveal.js');
+//para los menues
+echo js('superfish.js');
+
 
 
 // datatables tabletools

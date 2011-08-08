@@ -7,7 +7,7 @@ class MY_Controller extends CI_Controller {
       session_start();
       parent::__construct();
       if ( !isset($_SESSION['username']) ) {
-         redirect('admin');
+         redirect('login');
       }
    }
  }

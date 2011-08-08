@@ -10,7 +10,8 @@
 @import "tipsy.css"; 				/* ToolTips */
 @import "reveal.css"; 				/* Modals */
 @import "orbit.css"; 				/* Image Slider */
-@import "menu.css"; 				/* Image Slider */
+@import "menu.css"; 				/* menues */
+@import "superfish.css"; 				/* Image Slider */
 
 
 /* HTML elements  */        
