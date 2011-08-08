@@ -1,0 +1,55 @@
+#trans-nav {
+ list-style-type: none; 
+ height: 40px;
+ padding: 0; 
+ margin: 0; 
+ background-color:#7F7F7F;
+ }
+ 
+ #trans-nav li a { 
+display: block; 
+padding: 0 15px; 
+color: #fff; 
+text-decoration: none; 
+}
+ 
+#trans-nav li { 
+float: left; 
+position: relative; 
+padding: 0; 
+line-height: 40px; 
+1width:100px;
+border-right: 0px;
+border-left: 0px;
+}
+1#trans-nav li:hover { 
+background: #4D4D4D; 
+}
+
+
+1#trans-nav li a:hover,li p:hover  { 
+color: #BFBFBF; 
+}
+1#trans-nav li ul { 
+opacity: 0; position: absolute; left: 0; width: 20em; 
+#background: #63867f; 
+list-style-type: none; padding: 0; margin: 0; 
+ z-index: 1;
+1display: none; /*--Hide by default--*/
+}
+1#trans-nav li:hover ul { 
+opacity: 1; 
+}
+1#trans-nav li ul li { 
+float: none; position: static; height: 0; line-height: 0; background: none; 
+}
+1#trans-nav li:hover ul li { 
+height: 30px; 
+line-height: 30px; 
+}
+1#trans-nav li ul li a { 
+ background-color:#7F7F7F;
+}
+1#trans-nav li ul li a:hover { 
+background: #4D4D4D; 
+}
