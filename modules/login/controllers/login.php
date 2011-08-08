@@ -18,7 +18,9 @@ public function index()
       $this->load->library('form_validation');
       $this->form_validation->set_rules('email_address', 'Email Address or Username', 'required|min_length[4]');
       $this->form_validation->set_rules('password', 'Password', 'required|min_length[4]');
-
+		
+		sleep(10);
+		
       if ( $this->form_validation->run() !== false ) {
          // then validation passed. Get from db
 
