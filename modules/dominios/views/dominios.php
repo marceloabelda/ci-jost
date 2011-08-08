@@ -2,7 +2,7 @@
 if (ENVIRONMENT=='development') {
 	$path= '/home/marcelo/Escritorio/*';
 } else {
-	$path=  '/home/*';
+	$path=  '/home';
 }
 		
 exec('ls -1 '.$path, $output);
