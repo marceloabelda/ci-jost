@@ -35,7 +35,8 @@ $config = array(
 			'submenu'   =>  array(
                 'espacio_ocupado'  =>  array(
                     'title' =>  'Espacio Ocupado',
-                    'href'  =>  'espacio_ocupado'
+                    'href'  =>  'espacio_ocupado',
+                    'global_admin'  =>  TRUE
                 )
 			)
         )
