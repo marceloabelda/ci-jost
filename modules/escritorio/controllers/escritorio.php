@@ -22,7 +22,9 @@ class Escritorio extends MY_Controller {
 			->set_partial('footer', 'partials/footer.html');
 		
 		$this->template
-			->set('content_header', 'Escritorio');
+			->set('content_header', 'Escritorio')
+			->set('username',$_SESSION['username'])
+			->set('dominio',$_SESSION['dominio']);
 			
 		$this->template
 			->build('escritorio');

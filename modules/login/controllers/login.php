@@ -33,6 +33,7 @@ public function index()
 
          if ( $res !== false ) {
             $_SESSION['username'] = $this->input->post('email_address');
+            $_SESSION['dominio'] = $this->login_model->get_dominio();
             redirect('escritorio');
          }
 

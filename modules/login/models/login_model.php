@@ -24,6 +24,11 @@ class Login_model extends CI_Model {
 	return false;
 
 	}
+	public function get_dominio()
+	{
+		$this->firephp->fb('dom '.$this->dominio);
+		return $this->dominio;
+	}
 
 }
 

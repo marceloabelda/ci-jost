@@ -5,11 +5,13 @@
 </hgroup>
 
 -->
-
+<div>
 <hgroup>
 	<h1>Título de la página</h1>
-	<h4 >Subtítulo de la página</h2>
+	<h4>Subtítulo de la página</h2>
+	<?php echo heading($username.' '.$dominio, 6);?>
 </hgroup>
 
+</div>
 
 
