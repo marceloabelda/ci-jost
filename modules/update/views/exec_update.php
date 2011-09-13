@@ -4,7 +4,7 @@
 	if (ENVIRONMENT=='development') {
 		$output='git pull origin master';
 	} else {
-		exec('git pull origin master', $output);
+		exec('git status', $output);
 	}
 	echo "<pre>";
 	print_r( $output);
