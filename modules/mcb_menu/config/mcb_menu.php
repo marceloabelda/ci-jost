@@ -39,6 +39,16 @@ $config = array(
                     'global_admin'  =>  TRUE
                 )
 			)
+        ),
+		'updates' =>array(
+			'title'     =>  'Updates',
+			'submenu'   =>  array(
+                'pull'  =>  array(
+                    'title' =>  'Pull master',
+                    'href'  =>  'update',
+                    //'global_admin'  =>  TRUE
+                )
+			)
         )
     )
 );
