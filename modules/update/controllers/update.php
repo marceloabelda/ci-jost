@@ -7,20 +7,15 @@ class Update extends MY_Controller {
      }
      public function index()
 	{
-		/*
-		if (ENVIRONMENT=='development') {
-		$path= '/home/marcelo/Escritorio/*';
-		} else {
-		$path=  '/home';
-		}
+		
+		
+		$path= BASEPATH.'/../';
+		
 
-		exec('ls -1 '.$path, $output);
+		exec('cd $path');
+		exec('ls -1 ', $output);
 		echo "<pre>";
 		print_r( $output);
-		echo "</pre>";
-		*/
-		echo "<pre>";
-		print_r(BASEPATH);
 		echo "</pre>";
 		
 	}
