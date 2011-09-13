@@ -7,16 +7,41 @@ class Update extends MY_Controller {
      }
      public function index()
 	{
+		$this->template
+			->set_layout('default-layout.html')
+			->set_partial('metadata', 'partials/metadata.html')
+			->set_partial('header', 'partials/header.php')
+			->set_partial('menu', 'partials/menu.php')
+			->set_partial('aside', 'partials/aside.php')
+			->set_partial('content-header', 'partials/content-header.html')
+			->set_partial('content-notices', 'partials/content-notices.php')
+			->set_partial('footer-script', 'partials/footer-script.php')
+			->set_partial('footer', 'partials/footer.html');
 		
+		$this->template
+			->set('content_header', 'Update');
+			
+		$this->template
+			->build('update');		
+	}
+	public function exec_update()
+	{
+	$this->template
+			->set_layout('default-layout.html')
+			->set_partial('metadata', 'partials/metadata.html')
+			->set_partial('header', 'partials/header.php')
+			->set_partial('menu', 'partials/menu.php')
+			->set_partial('aside', 'partials/aside.php')
+			->set_partial('content-header', 'partials/content-header.html')
+			->set_partial('content-notices', 'partials/content-notices.php')
+			->set_partial('footer-script', 'partials/footer-script.php')
+			->set_partial('footer', 'partials/footer.html');
 		
-		$path= BASEPATH.'/../';
-		
-
-		exec('cd $path');
-		exec('ls -1 ', $output);
-		echo "<pre>";
-		print_r( $output);
-		echo "</pre>";
-		
+		$this->template
+			->set('content_header', 'Ejecutar Update');
+			
+		$this->template
+			->build('exec_update');	
+	
 	}
 }
